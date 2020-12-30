@@ -13,8 +13,8 @@ def monopoly_with_second_tier
   }
 end
   
-  def monopoly_with_third_tier
-    monopoly =  {
+def monopoly_with_third_tier
+  monopoly =  {
   :railroads=>
   {
     :pieces=>4,
@@ -27,17 +27,17 @@ end
     },
     :names=>
     {
-      :reading_railroad => {},
-      :pennsylvania_railroad => {},
-      :b_and_o_railroad => {},
-      :shortline_railroad => {}
+      :reading_railroad=>{},
+      :pennsylvania_railroad=>{},
+      :b_and_o_railroad=>{},
+      :shortline_railroad=>{}
      }
    }
   }
   end
   
 def monopoly_with_fourth_tier
-monopoly =  {
+  monopoly =  {
   :railroads=>
   {
     :pieces=>4,
